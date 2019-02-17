@@ -1,4 +1,4 @@
-# XNLI: The Cross-Lingual NLI Corpus
+#XNLI: The Cross-Lingual NLI Corpus
 XNLI is an evaluation corpus for language transfer and cross-lingual sentence classification in 15 languages.
 
 **New:** [Multilingual BERT](https://github.com/google-research/bert/blob/master/multilingual.md#models) uses XNLI to evaluate the quality of the cross-lingual representations.
@@ -24,15 +24,17 @@ The pairs are annotated with textual entailment and translated into 14 languages
 Russian, Turkish, Arabic, Vietnamese, Thai, Chinese, Hindi, Swahili and Urdu*. This results in 112.5k annotated pairs.
 Each premise can be associated with the corresponding hypothesis in the 15 languages, summing up to more than 1.5M combinations.
 
+[comment]: # (The following link is broken. It appears there is no alternative for it in another website.)
 ![Examples](https://s3.amazonaws.com/xnli/examples.png)
 
 ## Download
 XNLI is distributed in a single ZIP file containing the corpus as both JSON lines (jsonl) and tab-separated text (txt). The English training data can be found on the [MultiNLI website](https://www.nyu.edu/projects/bowman/multinli/).
 
-Download: [XNLI 1.0](https://s3.amazonaws.com/xnli/XNLI-1.0.zip) (17MB, ZIP)
+Download: [XNLI 1.0](https://www.nyu.edu/projects/bowman/xnli/XNLI-1.0.zip) (17MB, ZIP)
 
 XNLI can also be used as a 15way parallel corpus of 10,000 sentences, for building or evaluating Machine Translation systems. XNLI provides additional open parallel data for low-resource languages such as Swahili or Urdu.
 
+[comment]: # (The following link is broken. It appears there is no alternative for it in another website.)
 Download [XNLI-15way](https://s3.amazonaws.com/xnli/XNLI-15way.zip) (12MB, ZIP)
 
 ## Useful XLU resources
@@ -70,7 +72,7 @@ The [XNLI paper](https://arxiv.org/abs/1809.05053) presents several baselines fo
 
 We also release the machine translated data for reproducing the TRANSLATE-TRAIN and TRANSLATE-TEST:
 
-Download: [XNLI-MT 1.0](https://s3.amazonaws.com/xnli/XNLI-MT-1.0.zip) (445MB, ZIP)
+Download: [XNLI-MT 1.0](https://www.nyu.edu/projects/bowman/xnli/XNLI-MT-1.0.zip) (445MB, ZIP)
 
 ## License
 XNLI is licensed under the license found in the LICENSE file. See details in the [XNLI paper](https://arxiv.org/abs/1809.05053).
