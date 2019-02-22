@@ -24,16 +24,16 @@ The pairs are annotated with textual entailment and translated into 14 languages
 Russian, Turkish, Arabic, Vietnamese, Thai, Chinese, Hindi, Swahili and Urdu*. This results in 112.5k annotated pairs.
 Each premise can be associated with the corresponding hypothesis in the 15 languages, summing up to more than 1.5M combinations.
 
-![Examples](https://s3.amazonaws.com/xnli/examples.png)
+![Examples](https://dl.fbaipublicfiles.com/XNLI/xnli_examples.png)
 
 ## Download
 XNLI is distributed in a single ZIP file containing the corpus as both JSON lines (jsonl) and tab-separated text (txt). The English training data can be found on the [MultiNLI website](https://www.nyu.edu/projects/bowman/multinli/).
 
-Download: [XNLI 1.0](https://s3.amazonaws.com/xnli/XNLI-1.0.zip) (17MB, ZIP)
+Download: [XNLI 1.0](https://dl.fbaipublicfiles.com/XNLI/XNLI-1.0.zip) (17MB, ZIP)
 
 XNLI can also be used as a 15way parallel corpus of 10,000 sentences, for building or evaluating Machine Translation systems. XNLI provides additional open parallel data for low-resource languages such as Swahili or Urdu.
 
-Download [XNLI-15way](https://s3.amazonaws.com/xnli/XNLI-15way.zip) (12MB, ZIP)
+Download [XNLI-15way](https://dl.fbaipublicfiles.com/XNLI/XNLI-15way.zip) (12MB, ZIP)
 
 ## Useful XLU resources
 Parallel data for aligning sentence encoders: [OPUS: the open parallel corpus](http://opus.nlpl.eu/)
