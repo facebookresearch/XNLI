@@ -70,7 +70,7 @@ The [XNLI paper](https://arxiv.org/abs/1809.05053) presents several baselines fo
 
 We also release the machine translated data for reproducing the TRANSLATE-TRAIN and TRANSLATE-TEST:
 
-Download: [XNLI-MT 1.0](https://s3.amazonaws.com/xnli/XNLI-MT-1.0.zip) (445MB, ZIP)
+Download: [XNLI-MT 1.0](https://dl.fbaipublicfiles.com/XNLI/XNLI-MT-1.0.zip) (445MB, ZIP)
 
 ## License
 XNLI is licensed under the license found in the LICENSE file. See details in the [XNLI paper](https://arxiv.org/abs/1809.05053).
