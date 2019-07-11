@@ -1,7 +1,7 @@
 # XNLI: The Cross-Lingual NLI Corpus
 XNLI is an evaluation corpus for language transfer and cross-lingual sentence classification in 15 languages.
 
-**New:** [Multilingual BERT](https://github.com/google-research/bert/blob/master/multilingual.md#models) uses XNLI to evaluate the quality of the cross-lingual representations.
+**New:** [XLM](https://github.com/facebookresearch/XLM) and [Multilingual BERT](https://github.com/google-research/bert/blob/master/multilingual.md#models) use XNLI to evaluate the quality of the cross-lingual representations.
 
 ## Introduction
 Many NLP systems (e.g. sentiment analysis, topic classification, feed ranking) rely on training data in one high-resource language, but cannot be directly used to make predictions for other languages at test time.
